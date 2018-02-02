@@ -1,0 +1,267 @@
+fileFormatVersion: 2
+guid: a3338e32cb224dd48a2048e039d0dfb9
+timeCreated: 1517580125
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Bone010
+    100002: Bone011
+    100004: Bone012
+    100006: Bone013
+    100008: Bone014
+    100010: Bone015
+    100012: Bone025
+    100014: Bone026
+    100016: Bone027
+    100018: Bone028
+    100020: Bone029
+    100022: Bone030
+    100024: Bone031
+    100026: Bone032
+    100028: Bone033
+    100030: Bone034
+    100032: Bone035
+    100034: Bone036
+    100036: Bone037
+    100038: Bone038
+    100040: Bone039
+    100042: Bone040
+    100044: Bone041
+    100046: Bone042
+    100048: Bone043
+    100050: Bone044
+    100052: Bone045
+    100054: Bone046
+    100056: Bone047
+    100058: Bone048
+    100060: Bone049
+    100062: Bone050
+    100064: Bone051
+    100066: Bone052
+    100068: Bone053
+    100070: Bone054
+    100072: Bone055
+    100074: Bone056
+    100076: Bone057
+    100078: Bone058
+    100080: Bone059
+    100082: Bone060
+    100084: Bone061
+    100086: Bone062
+    100088: Bone063
+    100090: Bone064
+    100092: Bone065
+    100094: Bone066
+    100096: Bone067
+    100098: Bone068
+    100100: Bone069
+    100102: Bone070
+    100104: Box004
+    100106: Box005
+    100108: Box006
+    100110: Camera001
+    100112: Group002
+    100114: Group003
+    100116: IK Chain001
+    100118: IK Chain002
+    100120: IK Chain003
+    100122: IK Chain004
+    100124: IK Chain005
+    100126: IK Chain006
+    100128: IK Chain007
+    100130: IK Chain008
+    100132: Line014
+    100134: Object001
+    100136: Object002
+    100138: Plane001
+    100140: //RootNode
+    100142: VRaySun001
+    100144: VRaySun001.Target
+    400000: Bone010
+    400002: Bone011
+    400004: Bone012
+    400006: Bone013
+    400008: Bone014
+    400010: Bone015
+    400012: Bone025
+    400014: Bone026
+    400016: Bone027
+    400018: Bone028
+    400020: Bone029
+    400022: Bone030
+    400024: Bone031
+    400026: Bone032
+    400028: Bone033
+    400030: Bone034
+    400032: Bone035
+    400034: Bone036
+    400036: Bone037
+    400038: Bone038
+    400040: Bone039
+    400042: Bone040
+    400044: Bone041
+    400046: Bone042
+    400048: Bone043
+    400050: Bone044
+    400052: Bone045
+    400054: Bone046
+    400056: Bone047
+    400058: Bone048
+    400060: Bone049
+    400062: Bone050
+    400064: Bone051
+    400066: Bone052
+    400068: Bone053
+    400070: Bone054
+    400072: Bone055
+    400074: Bone056
+    400076: Bone057
+    400078: Bone058
+    400080: Bone059
+    400082: Bone060
+    400084: Bone061
+    400086: Bone062
+    400088: Bone063
+    400090: Bone064
+    400092: Bone065
+    400094: Bone066
+    400096: Bone067
+    400098: Bone068
+    400100: Bone069
+    400102: Bone070
+    400104: Box004
+    400106: Box005
+    400108: Box006
+    400110: Camera001
+    400112: Group002
+    400114: Group003
+    400116: IK Chain001
+    400118: IK Chain002
+    400120: IK Chain003
+    400122: IK Chain004
+    400124: IK Chain005
+    400126: IK Chain006
+    400128: IK Chain007
+    400130: IK Chain008
+    400132: Line014
+    400134: Object001
+    400136: Object002
+    400138: Plane001
+    400140: //RootNode
+    400142: VRaySun001
+    400144: VRaySun001.Target
+    2000000: Camera001
+    2100000: 'Material #25'
+    2100002: 'Material #49'
+    2100004: 'Material #453'
+    2100006: 'Material #26'
+    2100008: 'Material #232'
+    2100010: 'Material #39'
+    2100012: 'Material #43'
+    2100014: 'Material #44'
+    2100016: 'Material #46'
+    2100018: 'Material #47'
+    2100020: 'Material #48'
+    2300000: Box004
+    2300002: Box005
+    2300004: Box006
+    2300006: Line014
+    2300008: Object001
+    2300010: Object002
+    3300000: Box004
+    3300002: Box005
+    3300004: Box006
+    3300006: Line014
+    3300008: Object001
+    3300010: Object002
+    4300000: Plane001
+    4300002: Box004
+    4300004: Object001
+    4300006: Object002
+    4300008: Box005
+    4300010: Box006
+    4300012: Line014
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Plane001
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Bone010
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
