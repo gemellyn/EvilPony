@@ -31,7 +31,18 @@ public class BasicMove : MonoBehaviour {
             Debug.DrawLine(transform.position, destination);
 
         //On le fait avancer
-        if (distanceToDestination > 0.1 && angleToDirection < 20)
-            transform.position += direction * speed * Time.deltaTime;
+        if (distanceToDestination >4 && angleToDirection < 20)
+        {
+            Vector3 vitesse = direction * speed;
+            vitesse.y = GetComponent<Rigidbody>().velocity.y;
+            GetComponent<Rigidbody>().velocity = vitesse;
+            //transform.position += direction * speed * Time.deltaTime;
+            //GetComponent<ParticleSystem>().emissionRate = 10;
+        }
+        else
+        {
+            //GetComponent<ParticleSystem>().emissionRate = 0 ;
+            GetComponent<Rigidbody>().velocity = Vector3.zero;
+        }
     }
 }

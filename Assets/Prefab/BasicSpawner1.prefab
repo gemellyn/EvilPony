@@ -40,7 +40,8 @@ GameObject:
   - component: {fileID: 33544610523460354}
   - component: {fileID: 65448788108838326}
   - component: {fileID: 23028424357790512}
-  - component: {fileID: 114393233491026956}
+  - component: {fileID: 114403746378536588}
+  - component: {fileID: 54250254096673924}
   m_Layer: 0
   m_Name: BasicSpawner1
   m_TagString: Untagged
@@ -88,6 +89,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: a53aa1c01c0ba06498029d62a45f1034, type: 2}
   m_StaticBatchInfo:
@@ -122,6 +124,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: de9e1b05bf512494bab72935c6da44ee, type: 2}
   m_StaticBatchInfo:
@@ -157,6 +160,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1422884828338070}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &54250254096673924
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1997570132474380}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!65 &65448788108838326
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -181,7 +199,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114393233491026956
+--- !u!114 &114403746378536588
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -189,7 +207,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1997570132474380}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2eda34e07aacf0a42b73d35c7304ccfa, type: 3}
+  m_Script: {fileID: 11500000, guid: 686212f45da43e441a650b8f81930f3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.5
+  angularSpeed: 0.02
   debug: 1
